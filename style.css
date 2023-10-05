@@ -50,7 +50,7 @@
 
 /*#region main*/
 main{
-height: calc(100vh - 130px);
+height: calc(100vh - 120px);
 background-color: black;
 overflow-y: scroll;
 }
@@ -97,8 +97,100 @@ overflow-y: scroll;
 
 /*#endregion*/
 
+/**footer**/
 .piedipagina{
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.microfono3{
+    margin-left: 15px;
+    color: white;
+    font-size: 19px; 
+}
+
+.mute{
+    margin-left: 10px;
+    color: white;
+}
+.centratura{
+    vertical-align: bottom;
+}
+.freccia1{
+    font-size: 8px;
+    margin-left: 20px;
+    color: white;
+}
+
+.freccia{
+    vertical-align:top;
+    font-size: 10px;
+    color: white;
+}
+
+.microfono4{
+    display: inline-block;
+}
+.secondoblocco,.partecipa,.invita,.polling,.share,
+.freccia-interna,.chat,.record,.rooms,.dots,.metting
+{
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.video{
+    font-size: 19px;
+    margin-left: 25px;
+    color: white;
+    
+}
+
+.invita{
+    color: white;
+}
+
+h6{
+    color: white;
+    font-size: 10px;
+}
+
+.color{
+    color: white;
+}
+
+.color2{
+    color: green;
+}
+
+.freccia-interna{
+}
+
+.freccia3{
+    font-size: 10px;
+}
+
+.terzoblocco{
+    background-color: #4a4a4a;
+    font-size: 12px;
+    height: 70px;
+    display: flex;
+    
+    
+
+}
+.meeting{
+    color: red;
+    align-self: center;
+    padding: 0 10px
+}
+
+.{
+
 }
