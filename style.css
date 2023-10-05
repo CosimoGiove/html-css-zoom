@@ -191,4 +191,16 @@ h6{
     align-self: center;
     padding: 0 10px
 }
+ /**hover**/
+.terzoblocco:hover{
+    opacity: 0.5;
+}
+ i:hover{
+    color: red;
+    transition: ease 1s;
+ }
 
+img:hover{
+    opacity: 0.5;
+    transition: ease 1s;
+}
